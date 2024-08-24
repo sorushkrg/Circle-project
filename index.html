@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="public/plugin/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/Sass/master.min.css" />
+        <title>Move array Game</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="circle" class="circle container"></div>
+            <div class="layout container">
+                <div class="form-control text-center border-0">
+                    <div class="num-input">
+                        <input
+                            type="text"
+                            id="number-input"
+                            min="1"
+                            max="10"
+                            placeholder="Number" />
+
+                        <input
+                            type="text"
+                            id="step-input"
+                            min="1"
+                            max="10"
+                            placeholder="step" />
+                    </div>
+
+                    <div class="error mt-5" id="error"></div>
+                </div>
+                <div class="button-layout">
+                    <button class="bg-primary border-0" id="up-button">
+                        Next
+                    </button>
+                    <button class="bg-danger border-0" id="down-button">
+                        pervious
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="public/plugin/js/bootstrap.bundle.js"></script>
+        <script src="assets/js/master.js"></script>
+    </body>
+</html>
