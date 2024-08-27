@@ -3,7 +3,7 @@ const circle = document.querySelector("#circle");
 
 function Extract() {
 	circle.innerHTML = "";
-	numbers.map((number) => {
+	numbers.filter((number) => {
 		const numberElement = document.createElement("div");
 		numberElement.className = "number";
 		numberElement.innerHTML = number;
